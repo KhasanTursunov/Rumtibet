@@ -1,0 +1,118 @@
+.footer{
+    background-color: $oneA;
+    padding: 50px;
+}
+.footer_wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.footer1{
+display: flex;
+flex-direction: column;
+gap: 30px;
+}
+.gvhbdaa h3{
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+text-align: left;
+color: #F3F5F4;
+}
+.gvhbdaa h3:hover{
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+text-align: left;
+color: $Ftwo;
+}
+
+.dasq p{
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+text-align: left;
+color: #FFFFFF;
+width: 50%;  
+}
+.dasq p:hover{
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+text-align: left;
+color: $Ftwo;
+width: 50%;  
+}
+
+.footer_fonts{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+// 
+
+
+.footer2,
+.footer3{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    width: 50%;
+}
+
+.footer2 h3,
+.footer3 h3{
+font-family: Nunito Sans;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+text-align: left;
+color: #F3F5F4;
+// transition: 1s;
+}
+
+.footer2 h3:hover,
+.footer3 h3:hover{
+font-family: Nunito Sans;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+text-align: left;
+color: $Ftwo;
+}
+.footer2 p,
+.footer3 p{
+font-family: Nunito Sans;
+font-size: 14px;
+font-weight: 400;
+line-height: 18px;
+text-align: left;
+color: $FD;
+// transition: 0.5s linear;
+
+}
+.footer2 p:hover,
+.footer3 p:hover{
+font-family: Nunito Sans;
+font-size: 14px;
+font-weight: 400;
+line-height: 18px;
+text-align: left;
+color: $Ftwo;
+
+}
+
+
+@media(max-width:1000px){
+.footer_wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+}
