@@ -1,0 +1,70 @@
+.famous{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.f_title{
+        margin-top: 50px;
+    margin-bottom: 50px;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.f_title h3{
+font-size: 24px;
+font-weight: 400;
+line-height: 20px;
+color: $Ftwo;
+}
+
+.f_title h2{
+font-size: 32px;
+font-weight: 800;
+line-height: 38.4px;
+text-align: center;
+color: $eighteen;
+}
+
+.f_card{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.f_item{
+    margin-top: 30px;
+    align-items: center;
+    text-align: center;
+}
+
+.f_btn{
+    width: 244px;
+height: 52px;
+border-radius: 4px;
+background-color: $oneA;
+border: none;
+color: $FD;
+font-size: 16px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0.012em;
+transition: 0.3s;
+}
+
+.f_btn:hover{
+background-color: $FD;
+border: 2px solid $oneA;
+color: $oneA;
+}
+
+@media(max-width:500px){
+    .f_card img{
+        width: 100%;
+        align-items: left;
+    }
+}
