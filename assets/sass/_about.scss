@@ -1,0 +1,70 @@
+.about{
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.about_left_and_right{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.about_right p{
+font-size: 24px;
+font-weight: 400;
+line-height: 20px;
+color: $Ftwo;
+}
+.about_right h2{
+font-size: 32px;
+font-weight: 800;
+line-height: 38.4px;
+text-align: left;
+color: $eighteen;
+}
+.about_right h3{
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+text-align: left;
+color: $eighteen;
+}
+
+.about_btn{
+    width: 200px;
+height: 52px;
+border-radius: 4px;
+background-color: $oneA;
+font-size: 16px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0.012em;
+color: $FD;
+transition: 0.4s;
+}
+
+.about_btn:hover{
+background-color: $FD;
+color: $oneA;
+border: 2px solid $oneA;
+
+}
+
+.about_right{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+@media(max-width: 1110px){
+    .about_left_and_right{
+    flex-wrap: wrap;
+    justify-content: center;
+
+    }
+    .about_left img{
+        width: 100%;
+    }
+
+}
