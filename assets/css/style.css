@@ -280,6 +280,9 @@ a {
     color: #FDFDFD;
     width: 100%;
   }
+  .showcase_btn {
+    display: none;
+  }
 }
 .about {
   margin-top: 50px;
