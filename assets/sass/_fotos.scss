@@ -48,3 +48,16 @@ color: $eighteen;
     width: 100%;
 }
 }
+
+
+@media(max-width:400px){
+    
+.photo_divs{
+    margin-top: 50px;
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+}
+}

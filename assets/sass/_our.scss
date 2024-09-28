@@ -105,3 +105,15 @@ border: 2px solid $oneA;
     justify-content: center;
 }
 }
+
+@media(max-width:400px){
+    
+
+    .img_divs{
+        width: 100%;
+    }
+    .img_divs img{
+        width: 100%;
+    }
+
+}

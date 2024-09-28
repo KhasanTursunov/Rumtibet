@@ -456,6 +456,14 @@ a {
     justify-content: center;
   }
 }
+@media (max-width: 400px) {
+  .img_divs {
+    width: 100%;
+  }
+  .img_divs img {
+    width: 100%;
+  }
+}
 .famous {
   margin-top: 50px;
   margin-bottom: 50px;
@@ -648,6 +656,11 @@ a {
     width: 100%;
   }
 }
+@media (max-width: 400px) {
+  .left {
+    width: 100%;
+  }
+}
 .p_title {
   display: flex;
   flex-direction: column;
@@ -695,6 +708,16 @@ a {
     display: flex;
     gap: 15px;
     flex-wrap: wrap;
+    width: 100%;
+  }
+}
+@media (max-width: 400px) {
+  .photo_divs {
+    margin-top: 50px;
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
     width: 100%;
   }
 }
@@ -812,6 +835,11 @@ a {
     align-items: center;
     text-align: center;
     justify-content: center;
+  }
+}
+@media (max-width: 400px) {
+  .footer {
+    display: none;
   }
 }
 
